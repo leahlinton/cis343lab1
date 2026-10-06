@@ -1,0 +1,6 @@
+var bad = @;
+var bad2 = $50;
+var bad3 = 100 % 2;
+var bad3 = 90 ~ 12;
+var bad4 = "this string is not good;
+

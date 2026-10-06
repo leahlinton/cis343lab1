@@ -1,0 +1,40 @@
+var my_num = 86;
+var decimal = 8.123;
+var my_string = "Hello World";
+var empty_string = "";
+var bool_t = T;
+var bool_f = F;
+var my_null = NULL;
+var product = my_num * 7;
+var quotient = decimal / 2;
+var is_equal = (my_num == 186);
+var is_not_equal = (decimal != 6.889);
+var is_greater = (my_num > 100);
+var is_less = (decimal < 10);
+var not = !bool_t;
+my_num += 100;
+decimal -= 1.234;
+
+func add_positive_numbers(a, b) {
+  if (a > 0 && b > 0) {
+    return a + b;
+  } else {
+    return NULL;
+  }
+}
+
+var i = 0;
+during (i < 10) {
+  print(i);
+  i += 1;
+}
+
+for (var j = 0; j < 10; j += 1) {
+  print(j);
+}
+
+class Leah {
+    init() {
+        this.age = 20;
+    }
+}
